@@ -104,7 +104,7 @@ header {
 
 .header-jumbotron > h4 {
     color: #FFCD02;
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0px;
     padding: 0px;
 
@@ -119,7 +119,7 @@ header {
 }
 .header-jumbotron > p {
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0px 5px 20px 5px;
     color :#fff;
 }
@@ -151,7 +151,7 @@ a {
 .button:hover {
     background-color: #FFCD02;
     box-shadow: 0px 15px 20px rgba(255, 238, 1, 0.4);
-    transform: translateY(-7px);
+    
     font-family: "Kanit", sans-serif; 
 }
 
@@ -342,6 +342,7 @@ button:active {
 #tentang-saya > .wrapper > div > .desc > .social > a {
     color: #FFBF00;
 }
+
 /*
 * FREE COURSE
 */
@@ -402,6 +403,7 @@ button:active {
     padding: 10px 20px 10px 20px;
 }
 
+
 /*
 * copyright
 */
@@ -427,12 +429,13 @@ button.hamburger-menu {
 
 button.hamburger-menu > i {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 button.hamburger-menu > i:hover {
     color: #FFCD02;
-    border :color(from color srgb r g b)
+    transform-style: calc(-7px);
+    
 }
 
 button.hamburger-menu > i.icon-close {
@@ -444,7 +447,7 @@ button.hamburger-menu > i.icon-close {
 */
 @media only screen and (max-width: 1024px) {
     .wrapper {
-        width: 90%;;
+        width: 90%;
     }
 
     #tentang-saya > .wrapper > div > .desc > .social {
@@ -519,6 +522,23 @@ button.hamburger-menu > i.icon-close {
         grid-template-columns: 100%;
     }
 
+    .header-jumbotron > h4 {
+        color: #FFCD02;
+        font-size: 3rem;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+
+    .header-jumbotron > p {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .button {
+        padding: 20px;
+    }
+
     #statistic > .wrapper {
         padding: 10px;
         flex-direction: column;
@@ -584,6 +604,7 @@ button.hamburger-menu > i.icon-close {
         padding: 10px 20px 10px 20px;
         
     }
+    
 }
 
 @keyframes pulse {
